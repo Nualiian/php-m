@@ -8,6 +8,7 @@ phpM was designed to be very unopinionated, lightweight and secure. It is also d
 * `git clone https://github.com/Nualiian/phpM`
 * `cd phpM`
 * `composer install` to install the framework dependencies
+* `mv .env.example .env` and fill out your credentials
 * `bower install` to install the frontend dependencies
 * `npm install` to install all the npm dependencies
 * ready to use!
