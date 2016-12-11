@@ -11,6 +11,7 @@ phpM was designed to be very unopinionated, lightweight and secure. It is also d
 * `mv .env.example .env` and fill out your credentials
 * `bower install` to install the frontend dependencies
 * `npm install` to install all the npm dependencies
+* `gulp build` to build the resources
 * ready to use!
 
 phpM offers this functionality out of the box:
