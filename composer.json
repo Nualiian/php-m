@@ -1,0 +1,8 @@
+{
+	"name": "phpM",
+	"require": {
+		"josegonzalez/dotenv": "dev-master",
+		"altorouter/altorouter": "^1.2",
+		"vrana/notorm": "dev-master"
+	}
+}

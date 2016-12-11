@@ -1,0 +1,9 @@
+.env
+
+public/css
+public/fonts
+publis/js
+
+node_modules/
+vendor/
+public/components
