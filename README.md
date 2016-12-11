@@ -21,7 +21,7 @@ The framework has its own session based Auth class, that is ready to be used in 
 phpM uses [NotORM](http://www.notorm.com/) as and active record manager for the database.
 
 ## Building resources
-This boilerplate comes with a custom gulpfile that builds your resources, which are located in the `resources` folder. It uses Sass for stylesheets. phpM also comes preloaded with [MaterializeCSS](materializecss.com) framework.
+This boilerplate comes with a custom gulpfile that builds your resources, which are located in the `resources` folder. It uses Sass for stylesheets. phpM also comes preloaded with [MaterializeCSS](http://materializecss.com) framework.
 
 ## What to do when developing
 * `gulp watch` to build resources as you go
