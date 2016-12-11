@@ -11,22 +11,14 @@
 			<div class="col s12 m12 l12">
 				<div class="card">
 					<div class="card-content">
-						<h3><?php mutation("index.welcomeMessage") ?></h3>
-						<p><?php mutation("index.info") ?></p>
-						</div>
+						<h3>Welcome to phpM</h3>
+						<p>Take a look around</p>
 						<div class="card-action">
-							<?php if (! getUser()): ?>
-								<a href="<?php url('login') ?>"><?php mutation("index.login") ?></a>
-							<?php else: ?>
-								<?php if (isAdmin(getUser()["id"])): ?>
-									<a href="<?php url('users') ?>"><?php mutation("nav.manageResellers") ?></a>
-								<?php endif ?>
-									<a href="<?php url('quotation') ?>"><?php mutation("nav.quotations") ?></a>
-							<?php endif ?>
 						</div>
 					</div>
 				</div>
 			</div>
+		</div>
 	</div>
 
 	<script src="<?php asset("js/app.min.js") ?>" type="text/javascript"></script>
