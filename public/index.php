@@ -7,8 +7,8 @@ require_once('config/system.php');
 require_once('framework/helpers.php');
 
 // register the autoloaders
-require_once('framework/autoloader.php');
-require 'vendor/autoload.php';
+require_once('framework/autoloader.php'); // custom autoloader
+require 'vendor/autoload.php'; // composer autoloader
 
 // create a new instance of the app and bootstrap it
 $app = new Core\App();
