@@ -1,20 +1,20 @@
-# phpM framework
+# php-m framework
 
-This is the main repository of the phpM boilerplate application framework. It is a very slim project, that offers a solid boilerplate, that can be used for many simple, but also more complex web applications.
+This is the main repository of the php-m boilerplate application framework. It is a very slim project, that offers a solid boilerplate, that can be used for many simple, but also more complex web applications.
 
-phpM was designed to be very unopinionated, lightweight and secure. It is also designed to be deployed easily in any environmnet as it tries to rely on as little operating system specific functionality and config-specific functionality as possible.
+php-m was designed to be very unopinionated, lightweight and secure. It is also designed to be deployed easily in any environmnet as it tries to rely on as little operating system specific functionality and config-specific functionality as possible.
 
 ## Installation instructions
-* `git clone https://github.com/Nualiian/phpM`
-* `cd phpM`
-* `composer install` to install the framework dependencies
+To initiate a new project in php-m with [composer](https://getcomposer.org/), follow these easy steps:
+* `composer create-project nualiian/php-m`
 * `mv .env.example .env` and fill out your credentials
 * `bower install` to install the frontend dependencies
 * `npm install` to install all the npm dependencies
 * `gulp build` to build the resources
 * ready to use!
 
-phpM offers this functionality out of the box:
+--- 
+php-m offers this functionality out of the box:
 
 ## Authentication
 The framework has its own session based Auth class, that is ready to be used in your application. The main user model class is located in `framework/Core/Auth`.
@@ -23,10 +23,10 @@ Auth class also offers a convenience method for retrieving the user from the ses
 To create a new user, you can call `User::create($credentials)` and pass in an array of credentials (email and password) to persist a newly created user into the database.
 
 ## Database manipulation
-phpM uses [NotORM](http://www.notorm.com/) as and active record manager for the database.
+php-m uses [NotORM](http://www.notorm.com/) as and active record manager for the database.
 
 ## Building resources
-This boilerplate comes with a custom gulpfile that builds your resources, which are located in the `resources` folder. It uses Sass for stylesheets. phpM also comes preloaded with [MaterializeCSS](http://materializecss.com) framework.
+This boilerplate comes with a custom gulpfile that builds your resources, which are located in the `resources` folder. It uses Sass for stylesheets. php-m also comes preloaded with [MaterializeCSS](http://materializecss.com) framework.
 
 ## What to do when developing
 * `gulp watch` to build resources as you go
