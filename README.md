@@ -17,7 +17,10 @@ phpM was designed to be very unopinionated, lightweight and secure. It is also d
 phpM offers this functionality out of the box:
 
 ## Authentication
-The framework has its own session based Auth class, that is ready to be used in your application.
+The framework has its own session based Auth class, that is ready to be used in your application. The main user model class is located in `framework/Core/Auth`.
+To login a user you simply need to call `Auth::login($credentials)` in you controller. Logout on the toher hand is provided via `Auth::logout()`.
+Auth class also offers a convenience method for retrieving the user from the session by calling `Auth::user()`. If there is no user loggd in `false` will be returned.
+To create a new user, you can call `User::create($credentials)` and pass in an array of credentials (email and password) to persist a newly created user into the database.
 
 ## Database manipulation
 phpM uses [NotORM](http://www.notorm.com/) as and active record manager for the database.
