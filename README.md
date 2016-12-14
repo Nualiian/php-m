@@ -1,6 +1,6 @@
 # php-m framework
 
-This is the main repository of the php-m boilerplate application framework. It is a very slim project, that offers a solid boilerplate, that can be used for many simple, but also more complex web applications.
+php-m is a very slim framework, that offers a solid boilerplate, that can be used for many simple, but also more complex web applications.
 
 php-m was designed to be very unopinionated, lightweight and secure. It is also designed to be deployed easily in any environmnet as it tries to rely on as little operating system specific functionality and config-specific functionality as possible.
 
