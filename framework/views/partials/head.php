@@ -6,6 +6,9 @@
 <!-- materialize css framework -->
 <link rel="stylesheet" type="text/css" href="<?php asset("css/materialize.min.css") ?>">
 
+<!-- prevent zoom on mobile -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+
 <!-- custom stylesheets -->
 <link rel="stylesheet" type="text/css" href="<?php asset("css/app.min.css") ?>">
 
