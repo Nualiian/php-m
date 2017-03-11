@@ -1,7 +1,8 @@
 {
 	"name": "nualiian/php-m",
-	"description": "The phpM boilerplate.",
-	"keywords": ["framework", "boilerplate", "phpM"],
+	"version": "0.1.0",
+	"description": "A PHP boilerplate for less configurable environments.",
+	"keywords": ["framework", "boilerplate", "php-m"],
 	"license": "MIT",
 	"type": "project",
 	"require": {
