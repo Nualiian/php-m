@@ -21,6 +21,8 @@
 		</div>
 	</div>
 
+	<script src="<?php asset("components/jquery/dist/jquery.min.js") ?>" type="text/javascript"></script>
+	<script src="<?php asset("components/materialize/dist/js/materialize.min.js") ?>" type="text/javascript"></script>
 	<script src="<?php asset("js/app.min.js") ?>" type="text/javascript"></script>
 </body>
 </html>

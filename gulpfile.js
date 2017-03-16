@@ -14,17 +14,13 @@ var paths = {
 		dest: './public/css/'
 	},
 	js: {
-		src: ['./public/components/jquery/dist/jquery.js', './public/components/materialize/dist/js/materialize.js', './resources/js/*.js', './resources/js/*/*.js'],
+		src: ['./resources/js/*.js', './resources/js/*/*.js'],
 		dest: './public/js/'
 	},
 	materialize: {
 		sass: {
 			src: './public/components/materialize/sass/materialize.scss',
 			dest: './public/css/'
-		},
-		js: {
-			src: './public/components/materialize/dist/js/materialize.min.js',
-			dest: './public/js/'
 		},
 		fonts: {
 			src: './public/components/materialize/dist/fonts/roboto/*',
