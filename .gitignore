@@ -7,3 +7,5 @@ public/js
 node_modules/
 vendor/
 public/components
+
+npm-debug.log
