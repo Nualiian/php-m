@@ -10,7 +10,7 @@ To initiate a new project in php-m with [composer](https://getcomposer.org/), fo
 * `mv .env.example .env` and fill out your credentials
 * `bower install` to install the frontend dependencies
 * `npm install` to install all the npm dependencies
-* `gulp build` to build the resources
+* `npm run build` to build the resources
 * ready to use!
 
 --- 
@@ -29,5 +29,5 @@ php-m uses [NotORM](http://www.notorm.com/) as and active record manager for the
 This boilerplate comes with a custom gulpfile that builds your resources, which are located in the `resources` folder. It uses Sass for stylesheets. php-m also comes preloaded with [MaterializeCSS](http://materializecss.com) framework.
 
 ## What to do when developing
-* `gulp watch` to build resources as you go
+* `npm run watch` to build resources as you go
 * serve your webpage, e.g. `php -S localhost:3000 -t .`, or set up any other server using apache, nginx, ...
